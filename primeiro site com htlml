@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Imports league</title>
+		<meta charset="utf-8">
+			<meta name="author" content="Pedro Henrique" />
+			<meta name="keywords" content="nike, camisas, futebol, camisa de futebol, camisas de time"> <!-- até 150 caracteres-->
+			<meta name="description" content="A melhor loja digital de roupas esportivas"> <!--até 90 caracteres -->
+	</head>
+	<body  bgcolor="" link="00000" alink="FFFFF" vlink="00000">
+		>
+		<CENTER>
+			<font face="zanaz" size="5">
+				<a href="index.html">Sobre</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="index.html#pag-promocoes">Promocoes</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		       	<a href="index.html#pag-delivery">Delivery</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</font>
+		<CENTER/>
+		<img src="img/nike-banner.png">
+		<font color="" face="Noto Sans CJK TC" size="6">
+			<h1 align="center">Quem somos</h1>
+		</font>	
+				<hr color="FFFFF" id="index.html"/>
+
+		<font face="Liberation Mono" size="5">
+			<p>A Imports league, fundada por Mark Zuckerberg, tem sede em Conic, Brasilia, Brasil. A empresa recebeu primeiramente, em 1964, o nome de Liga dos importados. Porém, em 1971, foi renomeada para Imports league. Atualmente, a empresa é responsável pelo design, fabricação, marketing e venda de calçados, roupas, acessórios e equipamentos esportivos, destacando-se como uma das companhias mais valiosas do setor. </p>
+			<p>Além disso, para o seu crescimento e diversificação na linha de produtos, vale destacar que a Imports league também fez importantes aquisições. Cole Haan, Converse Inc, Canstar Sports Inc e Umbro são algumas das empresas adquiridas ao longo do tempo. Nos Estados Unidos, a companhia chegou em 1988, com o consagrado slogan "Just do it". Mas só em 2008 foi inaugurada a sua primeira loja própria, em território estadunidense. 
+		</font>
+
+      <hr color="00000" id="pag-promocoes" />
+
+       <font face="Noto Sans CJK TC" size="5">
+       	 <h2>Promoções</h2>
+       </font>
+
+        <table>
+          <tr>
+          	<td colspan="2">
+          	 <img src="img/camisa1.jpg" width="240">
+          	</td>
+          	<td colspan="2">
+          	 <img src="img/camisa2.jpg" width="180">
+          	</td>
+          	<td colspan="2">
+          	 <img src="img/camisa3.jpg" width="240">
+          	</td>
+          	<td colspan="2">
+          	 <img src="img/camisa4.jpeg" width="240">
+          	</td>
+          </tr>
+          <tr align="center">
+          	<td><font face="Noto Sans CJK TC" size="5">Camiseta do Brasil</font></td>
+          		<td><font face="Noto Sans CJK TC" size="5"><strong><p align="center"> R$150</p></strong></font></td>
+          	<td><font face="Noto Sans CJK TC" size="5">Camiseta de Roma</font></td>
+          		<td><font face="Noto Sans CJK TC" size="5"><strong><p align="center">R$200</p></strong></font></td>
+          	<td><font face="Noto Sans CJK TC" size="5">Camiseta do Qatar</font></td>
+         	 	<td><font face="Noto Sans CJK TC" size="5"><strong><p align="center">R$175</p></strong></font></td>
+          	<td><font face="Noto Sans CJK TC" size="5">Camiseta do México</font></td>
+          		<td><font face="Noto Sans CJK TC" size="5"><strong><p align="center">R$250</p></strong></font></td>
+          </tr>
+        </table>
+
+        <hr color="" id="pag-delivery" />
+
+
+        <font color="00000" face="Noto Sans CJK TC" size="6">
+			<h1 align="center">Delivery</h1>
+		</font>	
+		 <font color="" face="Noto Sans CJK TC" size="4">
+		 	<p align="justify">Entre com as informações abaixo para realizar seu pedido:</p></
+		 </font>
+		 	<form>
+		 		<font face="Liberation Mono">
+		 	  <label for="email">Digite seu e-mail</label>
+		 	  <input type="email" id="email" name="email"><br/><br/>
+
+		 	  <label for="">Digite seu endereço</label>
+		 	  <input type="" id="endereco" placeholder="País, Estado, Cidade, Quadra, Conjunto, Casa"p required size="50" name="endereco"><br><br/>
+
+        	<fieldset>	
+		 	  <label for="produto">Modelo</label>
+				<select>
+				  <option>Selecione...</option>
+				  <option value="brasil">Camiseta do Brasil</option>	
+				  <option value="roma">Camiseta de Roma</option>
+				  <option value="qatar">Camiseta do Qatar</option>
+				  <option value="mexico">Camiseta do México</option>
+				</select><br><br> 	 
+			</fieldset>	
+				<fieldset>
+				 
+				 
+				  <legend>Tamanho</legend>
+				  <input type="checkbox" id="tamanhoP" name="tamanhoP" value="tamanhoP" />
+				  <label for="tamanhoP">Tamanho P</label><br><br>
+
+				  <input type="checkbox" id="tamanhoM" name="tamanhoM" value="tamanhoM"/>
+				  <label for="dinheiro">Tamanho M</label><br><br>
+
+				   
+				  <input type="checkbox" id="tamanhoG" name="tamanhoG" value="tamanhoG" />
+				  <label for="tamanhoG">Tamanho G</label><br><br>
+
+				  <input type="checkbox" id="tamanhoGG" name="tamanhoGG" value="tamanhoGG"/>
+				  <label for="tamanhoGG">Tamanho GG</label><br><br>
+
+				</fieldset>	
+			<fieldset>
+				<label>Quantidade</label>
+				<input type="number" name="" min="1" max="5" step="1">
+			</fieldset>
+
+			 <fieldset>
+				  <legend>forma de pagamento</legend>
+				  <input type="radio" id="cartao" name="pagamento" value="C" />
+				  <label for="cartao">Cartão de crédito/Débito</label><br><br>
+
+				  <input type="radio" id="dinheiro" name="pagamento" value="D"/>
+				  <label for="dinheiro">Dinheiro</label><br><br>
+				</fieldset>	
+
+					<input type="submit" name="enviar">
+		 	</form>
+
+		 	<hr>
+
+		 	<font >
+		 	  <p align="center">Desenvolvido por Pedro</p>		
+		 	</font>
+
+	</body>
+</html>
